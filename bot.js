@@ -19,7 +19,7 @@ client.on('ready', function() {
 
 
 client.on('ready', () => {
-client.user.setGame('BroadCast II -bc','https://www.twitch.tv/kemo355');
+client.user.setGame('BroadCast II $bc','https://www.twitch.tv/kemo355');
 console.log('Logging into discord..');
 console.log(`
 By Ҝ€₥σ
@@ -90,8 +90,8 @@ msg.delete();
 //////////////////////////////
 client.on("ready", () => { // كود رينبو
   function lol() {
-    client.guilds.get('511582404113072138').roles.find("name", "Rainbow").setColor("RANDOM");
+    client.guilds.get('527128521819029524').roles.find("name", "Rainbow").setColor("RANDOM");
   };
-  setInterval(lol, 2000);
+  setInterval(lol, 5000);
 });
 client.login(process.env.BOT_TOKEN);//

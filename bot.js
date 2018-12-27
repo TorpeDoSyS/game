@@ -1,6 +1,6 @@
 ﻿const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "$"
+var prefix = "*"
 
 
 client.on('ready', function() {
@@ -22,7 +22,7 @@ client.on('ready', () => {
 client.user.setGame('BroadCast II $bc','https://www.twitch.tv/kemo355');
 console.log('Logging into discord..');
 console.log(`
-By Ҝ€₥σ
+By TorpeDoSyS
 `);
 
 });
@@ -90,7 +90,7 @@ msg.delete();
 //////////////////////////////
 client.on("ready", () => { // كود رينبو
   function lol() {
-    client.guilds.get('527128521819029524').roles.find("name", "Rainbow").setColor("RANDOM");
+    client.guilds.get('496437834689806336').roles.find("name", "Rainbow").setColor("RANDOM");
   };
   setInterval(lol, 5000);
 });
